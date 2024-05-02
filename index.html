@@ -8,18 +8,20 @@
 </head>
 <body>
     <script>
-let idade = (parseInt(prompt("insira sua idade")))
+let idade = parseInt(prompt("insira sua idade"));
 
-if (idade <= 0){
+if (idade < 0){
 document.write("idade invalida")
 
-}else if (idade > 0 && idade <= 17){
+}else if (idade <= 0 && idade <= 17){
 document.write("você é menor de idade")
 
 }else if( idade >= 18 && idade <= 64){
     document.write("você é adulto")
 
-}else{idade >=65(alerdocument.write ("você é idoso"))}
+}else {
+(document.write("você é idoso"))
+}
 
 
 
